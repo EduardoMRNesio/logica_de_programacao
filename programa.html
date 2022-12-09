@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+<script>
+
+    function pulaLinha(){
+        document.write("<br>");
+    }
+
+    function mostra(escrita){
+        document.write(escrita);
+        pulaLinha();
+    }
+    
+
+    var ano = 2022;
+    mostra("<h1>A idade do eduardo é <br> 26 </h1>");
+    mostra("Eduardo Nasceu em " + (2022-26));
+    mostra("Renata tem " + (ano - 1994) + " anos");
+    mostra("Marcela tem " + (ano - 1994) + " anos");
+    mostra("Eduardo tem " + (ano - 1996) + " anos");
+    mostra("Ariane tem " + (ano - 1961) + " anos");
+    var idadeRenata = 28, idadeMarcela = 28, idadeEduardo = 26;
+    var media = (idadeEduardo+idadeRenata+idadeMarcela)/3;
+    var nome = "Eduardo";
+    mostra("A media das idades é " + Math.round(media));
+    mostra("A idade de " + nome + " é " + idadeEduardo);
+</script>
